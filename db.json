@@ -1,9 +1,7 @@
 {
-  "posts": [
+  "transactions": [
     { "id": 1, "title": "json-server", "author": "typicode" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "users": [{ "id": 1, "name": "Joao Carlos", "email": "joao@paypague.com", "cpf": "43986639080" },
+  { "id": 2,"name": "Djalma Italo", "email": "djalma@paypague.com", "cpf": "09763431000" }]
 }
