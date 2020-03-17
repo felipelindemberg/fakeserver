@@ -2,6 +2,9 @@
   "transactions": [
     { "id": 1, "title": "json-server", "author": "typicode" }
   ],
+   "soccer": [
+    { "_id": 123, "home_team": "Corinthians", "away_team": "São Paulo" }
+  ],
   "users": [{ "id": 1, "name": "Joao Carlos", "email": "joao@paypague.com", "cpf": "43986639080" },
   { "id": 2,"name": "Djalma Italo", "email": "djalma@paypague.com", "cpf": "09763431000" }]
 }
