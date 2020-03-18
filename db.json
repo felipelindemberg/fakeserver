@@ -1,19 +1,23 @@
 {
   "soccer": [
-    { "_id": 123,  "exeternal_id": "sr:match:123456", "__t": "Soccer", "home_team": "Corinthians", "away_team": "São Paulo",
+    { "_id": 123,
+      "exeternal_id": "sr:match:123456",
+      "__t": "Soccer",
+      "home_team": "Corinthians",
+      "away_team": "São Paulo",
       "status": "NOT_STARTED",
       "date": "2020-11-27T09:55:00.000Z",
       "country": "Brazil",
-    "championship": "Copa do Brasil",
-    "locked": false,
-    "auto_update": true,
-    "valid_odds": 3,
-       "odds" : {
+      "championship": "Copa do Brasil",
+      "locked": false,
+      "auto_update": true,
+      "valid_odds": 3,
+      "odds" : {
          "full_time": {
-           "home":{"value" : 12, "enable": true},
-           "away":{"value" : 8, "enable": true},
-           "draw":{"value" : 4, "enable": true},
-         }
+         "home":{"value" : 12, "enable": true},
+         "away":{"value" : 8, "enable": true},
+         "draw":{"value" : 4, "enable": true},
+      }
       }
     }
   ]
