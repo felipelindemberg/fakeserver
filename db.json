@@ -15,7 +15,18 @@
          "full_time": {
          "home":{"value" : 12, "enable": true},
          "away":{"value" : 8, "enable": true},
-         "draw":{"value" : 4, "enable": true}
+         "draw":{"value" : 4, "enable": true
+        },
+             "first_time": {
+         "home":{"value" : 11, "enable": true},
+         "away":{"value" : 3, "enable": false},
+         "draw":{"value" : 5, "enable": true
+        },
+                 "second_time": {
+         "home":{"value" : 13.4, "enable": true},
+         "away":{"value" : 1.45, "enable": true},
+         "draw":{"value" : 2.45, "enable": true
+        }
       }
     }}
   ]}
