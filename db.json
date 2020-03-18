@@ -61,6 +61,7 @@
    ],
    "bets":[
       {
+         "_id":"adqwe123123",
          "code":"001",
          "date":"2020-11-27T09:55:00.000Z",
          "value":10.5,
@@ -121,6 +122,7 @@
    ],
    "users":[
       {
+         "_id":"usere123123",
          "username":"joao",
          "name":"Joao oliveira teste",
          "type":"MASTER",
