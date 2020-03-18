@@ -1,10 +1,20 @@
 {
-  "transactions": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "soccer": [
+    { "_id": 123,  "exeternal_id": "sr:match:123456", "__t": "Soccer", "home_team": "Corinthians", "away_team": "São Paulo",
+      "status": "NOT_STARTED",
+      "date": "2020-11-27T09:55:00.000Z",
+      "country": "Brazil",
+    "championship": "Copa do Brasil",
+    "locked": false,
+    "auto_update": true,
+    "valid_odds": 3,
+       "odds" : {
+         "full_time": {
+           "home":{"value" : 12, "enable": true},
+           "away":{"value" : 8, "enable": true},
+           "draw":{"value" : 4, "enable": true},
+         }
+      }
+    }
   ],
-   "soccer": [
-    { "_id": 123,  "exeternal_id": "sr:match:123456", "__t": "Soccer", "home_team": "Corinthians", "away_team": "São Paulo", "odds" : {} }
-  ],
-  "users": [{ "id": 1, "name": "Joao Carlos", "email": "joao@paypague.com", "cpf": "43986639080" },
-  { "id": 2,"name": "Djalma Italo", "email": "djalma@paypague.com", "cpf": "09763431000" }]
 }
