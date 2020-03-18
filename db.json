@@ -29,4 +29,76 @@
         }
       }
     }
-  ]}
+  ],
+
+  "bets":[{
+    "code": "001",
+    "date": "2020-11-27T09:55:00.000Z",
+    "value": 10.5,
+    "return_value": 100.51,
+    "bettor": "Apostador",
+    "status": "OPEN",
+    "events": [{
+        "event": { "_id": 123,
+          "exeternal_id": "sr:match:123456",
+          "__t": "Soccer",
+          "home_team": "Corinthians",
+          "away_team": "São Paulo",
+          "status": "NOT_STARTED",
+          "date": "2020-11-27T09:55:00.000Z",
+          "country": "Brazil",
+          "championship": "Copa do Brasil",
+
+        },
+        "odd": 1.45,
+        "type": "HOME",
+        "time": "FULL_TIME",
+        "status": "OPEN",
+    }],
+    "commission": {
+        "agent": 0.5
+    },
+    "source": "MOBILE",
+    "ip_address": "192.168.0.1",
+
+    "user": { "_id": 1, "name": "Joao Carlos", "username": "joao", "type": "MASTER" },
+    "supervisor": { "_id": 1, "name": "Joao Carlos", "username": "joao", "type": "MASTER" },
+    "zone": {"name": "Zone Name","friendly_name": "Nome amigável", "printing_note": "Imprimir isso no rodapé"},
+    "company": { "_id": 1, "name": "Nome da Companhia", "friendly_name": "Nome Amigável",
+    "logo": "https://png.pngtree.com/element_pic/16/11/02/bd886d7ccc6f8dd8db17e841233c9656.jpg",
+    "document": "123123123123","accountability_method": "CREDIT"},
+    "removed": false,
+  }],
+
+  "users": [{ "username": "joao",
+    "name": "Joao oliveira teste",
+    "type": "MASTER",
+    "credits": 1234.56,
+  "goal": 1200.34,
+  "contact": "839999129192",
+
+  "address": {
+      "country": "Brasil",
+      "state": "Pernambuco",
+      "city": "Caruaru",
+      "neighborhood": "Centro",
+      "street": "Av governado zezim",
+      "number": "142",
+      "zipcode": "56363666",
+      "complement": "",
+  },
+
+  "note": "Localizado no centro",
+
+  "company": {
+      "_id": 1,
+      "name": "Nome da Companhia",
+      "friendly_name": "Nome Amigável",
+      "logo": "https://png.pngtree.com/element_pic/16/11/02/bd886d7ccc6f8dd8db17e841233c9656.jpg",
+      "document": "123123123123",
+      "accountability_method": "CREDIT"
+    },
+    "removed": false,
+    "locked": false}
+  ]
+}
